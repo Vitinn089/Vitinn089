@@ -4,8 +4,8 @@
 
 <h3>🤩 Aprendendo:</h3>
 
-<img src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=HTML5&logoColor=white&style=for-the-badge" alt="Logo HTML5"> <img src="https://img.shields.io/static/v1?label=&message=CSS&color=1572B6&logo=CSS3&logoColor=white&style=for-the-badge" alt="Logo CSS3">
-<img src="https://img.shields.io/static/v1?label=&message=JavaScript&color=gray&logo=javaScript&logoColor=F7DF1E&style=for-the-badge" alt="Logo JavaScript"> <img src="https://img.shields.io/badge/C%23-239120?&style=for-the-badge&logo=c-sharp&logoColor=white" alt="Logo C-sharp">
+<a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=HTML5&logoColor=white&style=for-the-badge" alt="Logo HTML5"></a> <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://img.shields.io/static/v1?label=&message=CSS&color=1572B6&logo=CSS3&logoColor=white&style=for-the-badge" alt="Logo CSS3"></a>
+<a href="https://www.javascript.com/"><img src="https://img.shields.io/static/v1?label=&message=JavaScript&color=gray&logo=javaScript&logoColor=F7DF1E&style=for-the-badge" alt="Logo JavaScript"></a> <a href="https://docs.microsoft.com/en-us/dotnet/csharp/"><img src="https://img.shields.io/badge/C%23-239120?&style=for-the-badge&logo=c-sharp&logoColor=white" alt="Logo C-sharp"></a>
 
 <br>
 
@@ -17,7 +17,7 @@
 
 <h3>🚀 Pretendo aprender:</h3>
 
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="Logo React"> <img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Logo Sass"> <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Logo Python"> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Logo Node.js">
+<a href="https://pt-br.reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a> <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"></a> <a href="https://sass-lang.com/"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass"></a> <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a> <a href="https://nodejs.org/pt-br/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
 
 
 <h3>Repositórios Recomendados:</h3>
@@ -42,9 +42,9 @@
 </a>
 
 <a href="https://www.linkedin.com/in/vitor-lopes-991238171">
-<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin">
 </a>
 
 <a href="https://github.com/Vitinn089">
-<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
 </a>
