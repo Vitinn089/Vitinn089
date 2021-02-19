@@ -2,13 +2,6 @@
 
 <p align="left">Tenho 19 anos e sou estudante de programação. Atualmente busco uma oportunidade para ingressar no mercado de trabalho como desenvolvedor web front-end, seja trabalho fixo ou freelancer. 📝</p>
 
-<h3>Hobbies:</h3>
-
-- 💻 Codar;
-- 🛹 Skate;
-- 🎮 Games;
-- 🎙️ Consumir streams e podcasts.
-
 <h3>Aprendendo: 🤩</h3>
 
 <img src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=HTML5&logoColor=white&style=for-the-badge" alt="Logo HTML5"> <img src="https://img.shields.io/static/v1?label=&message=CSS&color=1572B6&logo=CSS3&logoColor=white&style=for-the-badge" alt="Logo CSS3">
@@ -20,7 +13,6 @@
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dracula" alt="Vitinn089">
 </a>
 
-<br>
 <br>
 
 <h3>Pretendo aprender: 🚀</h3>
@@ -42,7 +34,6 @@
 </a>
 
 <br>
-<br>
 
 <h3>Contato: 📞</h3>
 
@@ -57,28 +48,3 @@
 <a href="https://github.com/Vitinn089">
 <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white">
 </a>
-
-
-
-
-
-
-<!--
-
-
-Olá me chamo Vitor, tenho 19 anos e sou estudante de programação. Atualmente busco uma oportunidade para ingressar no mercado de desenvolvimento front-end.
-
-Aprendendo:
-**Vitinn089/Vitinn089** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
--  Pronouns: ...
-- ⚡ Fun fact: ...
--->
