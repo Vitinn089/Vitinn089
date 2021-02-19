@@ -20,7 +20,7 @@
 <a href="https://pt-br.reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a> <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"></a> <a href="https://sass-lang.com/"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass"></a> <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a> <a href="https://nodejs.org/pt-br/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
 
 
-<h3>Repositórios Recomendados:</h3>
+<h3>💭 Repositórios Recomendados:</h3>
 
 <p>Sei que ainda estou aprendendo e também sei que estou no caminho certo, portanto, deixo aqui alguns repositórios de estudos para acompanhamento de meu desenvolvimento como dev.</p>
 
