@@ -2,6 +2,10 @@
 
 <p align="left"> 📝 Tenho 19 anos e sou estudante de programação. Atualmente busco uma oportunidade para ingressar no mercado de trabalho como desenvolvedor web front-end, seja trabalho fixo ou freelancer.</p>
 
+<a href="https://github.com/Vitinn089/">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dracula" alt="Vitinn089" align="right">
+</a>
+
 <h3>🤩 Aprendendo:</h3>
 
 <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><img src="https://img.shields.io/static/v1?label=&message=HTML5&color=E34F26&logo=HTML5&logoColor=white&style=for-the-badge" alt="Logo HTML5"></a> <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS"><img src="https://img.shields.io/static/v1?label=&message=CSS&color=1572B6&logo=CSS3&logoColor=white&style=for-the-badge" alt="Logo CSS3"></a>
@@ -9,16 +13,13 @@
 
 <br>
 
-<a href="https://github.com/Vitinn089/">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dracula" alt="Vitinn089">
-</a>
-
-<br>
-
 <h3>🚀 Pretendo aprender:</h3>
 
 <a href="https://pt-br.reactjs.org/"><img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"></a> <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"></a> <a href="https://sass-lang.com/"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass"></a> <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a> <a href="https://nodejs.org/pt-br/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
 
+<a href="https://github.com/Vitinn089/">
+<img src="https://github-readme-stats.vercel.app/api?username=Vitinn089&theme=dracula" alt="Vitinn089" align="right">
+</a>
 
 <h3>💭 Repositórios Recomendados:</h3>
 
@@ -26,12 +27,6 @@
 
 - ✏️ [NLW2](https://github.com/Vitinn089/nlw2);
 - ✏️ [Projeto materiais de construção](https://github.com/Vitinn089/Estudo-MateriaisConstrucao).
-
-<br>
-
-<a href="https://github.com/Vitinn089/">
-<img src="https://github-readme-stats.vercel.app/api?username=Vitinn089&theme=dracula" alt="Vitinn089">
-</a>
 
 <br>
 
