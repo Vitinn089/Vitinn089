@@ -26,8 +26,6 @@
 - ✏️ [NLW2](https://github.com/Vitinn089/nlw2);
 - ✏️ [Projeto materiais de construção](https://github.com/Vitinn089/Estudo-MateriaisConstrucao).
 
-<br>
-
 <h3> 📞 Contato:</h3>
 
 <a href="mailto:vitorlopes089@gmail.com">
