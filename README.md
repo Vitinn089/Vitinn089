@@ -3,7 +3,7 @@
 <p align="left"> 📝 Tenho 19 anos e sou estudante de programação. Atualmente busco uma oportunidade para ingressar no mercado de trabalho como desenvolvedor web front-end, seja trabalho fixo ou freelancer.</p>
 
 <a href="https://github.com/Vitinn089/">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dracula" alt="Vitinn089" align="right">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact" alt="Vitinn089" align="right">
 </a>
 
 <h3>🤩 Aprendendo:</h3>
