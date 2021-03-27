@@ -17,7 +17,7 @@
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a> <a href="https://nodejs.org/pt-br/"><img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"></a>
 
 <a href="https://github.com/Vitinn089/">
-<img src="https://github-readme-stats.vercel.app/api?username=Vitinn089" alt="Vitinn089" align="right">
+<img src="https://github-readme-stats.vercel.app/api?username=Vitinn089&theme=dracula" alt="Vitinn089" align="right">
 </a>
 
 <h3>💭 Repositórios Recomendados:</h3>
