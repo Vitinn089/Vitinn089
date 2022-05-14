@@ -1,6 +1,6 @@
 <h1>Sobre mim 😄</h1>
 
-<p align="left"> 📝 Tenho 19 anos e sou estudante de programação. Atualmente busco uma oportunidade para ingressar no mercado de trabalho como desenvolvedor web front-end, seja trabalho fixo ou freelancer.</p>
+<p align="left"> 📝 Tenho 20 anos e sou estudante de ciências da computação. Atualmente busco uma oportunidade para ingressar no mercado de trabalho como desenvolvedor web front-end, seja trabalho fixo ou freelancer.</p>
 
 <a href="https://github.com/Vitinn089/">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dark" alt="Vitinn089" align="right">
