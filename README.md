@@ -26,6 +26,7 @@
 <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"></a>
 <a href="https://tailwindcss.com"><img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"></a>
 <a href="https://www.docker.com"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></a>
+<a href="https://www.prisma.io"><img src="https://img.shields.io/badge/Prisma-DD63DF?style=for-the-badge&logo=prisma" alt="Prisma"></a>
 <a href="https://pt.wikipedia.org/wiki/Linux"><img src="https://img.shields.io/badge/Linux-E34F26?style=for-the-badge&logo=linux&logoColor=black" alt="Linux"></a>
 
 <h3>🚀 Pretendo aprender:</h3>
