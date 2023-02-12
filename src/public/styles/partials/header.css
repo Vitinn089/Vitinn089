@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+    width: 100%;
+    height: 2rem;
+    padding: 0 2rem;
+    margin-bottom: 3rem;
+    position: sticky;
+}
+
+header a {
+    color: var(--color-dark-secondary);
+}
+
+header a + a {
+    margin-left: 1.5rem;
+}

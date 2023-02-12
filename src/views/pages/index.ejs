@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('../partials/head', {title: 'Home'}) %>
+    <link rel="stylesheet" href="styles/pages/index.css">
+</head>
+<body>
+<div id="container">
+    <%- include('../partials/header') %>
+
+    <main>
+        <div class="presentation-deslocate">
+            <div class="presentation">
+                <img class="avatar" src=<%= avatar %> alt="Imagem do perfil">
+                <h1 class="title">Olá, eu sou <span class="emphasis">Vitor Lopes</span>, desenvolvedor web e mobile.</h1>
+                <p class="desc">Está em  busca de um <span class="emphasis">site</span> ou <span class="emphasis">aplicativo</span>? Que tal dar uma olhada nos meus projetos?</p>
+
+                <div class="presentation-footer">
+                    <a class="text btn-contato" href="">
+                        <img src="icons/whatsapp.svg" alt="Icone de contato via Whatsapp">     <span>Contato</span>
+                    </a>
+
+                    <div>
+                        <a class="icon" href="https://www.linkedin.com/in/vitor-lopes-991238171" target="_blank"><img src="icons/linkedin.svg" alt="Icone de contato via Linkedin"></a>
+                        <a class="icon" href="https://github.com/Vitinn089" target="_blank"><img src="icons/github.svg" alt="Icone de contato via GitHub"></a>
+                        <a class="icon" href="mailto:vitorlopes089@gmail.com?subject=Desenvolvimento de sites&body=Olá gostaria de mais detlhes para a criação de um site." target="_blank"><img src="icons/email.svg" alt="Icone de contato via email"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav>
+            <div class="menu-selection" data-selected="true">
+                <span class="text">Projetos</span>
+            </div>
+            <div class="menu-selection">
+                <span class="text">Soft Skills</span>
+            </div>
+            <div class="menu-selection">
+                <span class="text">Hard Skills</span>
+            </div>
+        </nav>
+    </main>
+</div>
+</body>
+</html>
