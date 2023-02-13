@@ -3,6 +3,7 @@
 <head>
     <%- include('../partials/head', {title: 'Home'}) %>
     <link rel="stylesheet" href="styles/pages/index.css">
+	<link rel="stylesheet" href="/styles/partials/card.css">
 </head>
 <body>
 <div id="container">
@@ -40,6 +41,14 @@
                 <span class="text">Hard Skills</span>
             </div>
         </nav>
+
+		<div class="cards">
+			<% projects.forEach(project => { %>
+					<%- include('../partials/Home/card.ejs', {project, projectsImgs}) %>
+			<% }); %>
+		</div>
+
+		<%- include('../partials/Home/description.ejs') %>
     </main>
 </div>
 </body>

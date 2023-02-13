@@ -1,0 +1,12 @@
+<!-- <link rel="stylesheet" href="/styles/partials/card.css"> -->
+
+<% projectsImgs.forEach(projectImg => { %>
+			<% if (project.name == projectImg.name && projectImg.display) {%>
+				<div class="card" data-project=<%= project.name %>>
+					<img src=<%= projectImg.capaUrl %> alt=<%= projectImg.capaUrl %>>
+					<h3	 class="title3"><%= projectImg.title %></h3>
+					<p class="desc2">React \\ React Native \\ Styled Componets </p>
+				</div>
+			<% } %>
+<% }) %>
+

@@ -1,0 +1,23 @@
+.card {
+	width: min-content;
+
+	color: var(--color-dark-secondary);
+}
+.card img {
+    width: 20.6rem;
+    height: 10.4rem;
+
+	border-radius: .5rem;
+}
+
+.card h3 {
+	margin-top: 1rem;
+}
+
+.card p {
+	margin-top: .5rem;
+}
+
+.card + .card {
+	margin-left: 2.5rem;
+}

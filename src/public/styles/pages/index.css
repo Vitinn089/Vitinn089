@@ -80,3 +80,56 @@ nav .menu-selection {
     border: .1rem solid var(--color-dark-secondary);
     border-radius: 5rem;
 }
+
+.cards {
+	display: flex;
+	overflow: scroll;
+
+	padding: 0 2.5rem 1rem ;
+}
+
+.description {
+	color: var(--color-dark-secondary);
+	margin: 0 2.5rem;
+}
+
+.description p {
+	margin-top: 1rem;
+}
+
+.desc-header {
+	height: 10.4rem;
+	overflow: hidden;
+
+	position: relative;
+}
+
+.desc-header img{
+	width: 100%;
+	border-radius: 2.5rem 2.5rem 0 0;
+}
+
+.desc-header-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 10.4rem;
+
+
+	position: absolute;
+	top: 0;
+}
+
+.desc-header p {
+	color: var(--color-dark-featureda);
+}
+
+.desc-content {
+	padding: 1rem 2rem 3rem;
+	border-radius: 0 0 2.5rem 2.5rem;
+
+	background-color: var(--color-dark-dominant-light);
+}
