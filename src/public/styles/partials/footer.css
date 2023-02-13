@@ -1,0 +1,16 @@
+footer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 100%;
+	height: 8rem;
+	margin-top: 3rem;
+	color: var(--color-dark-secondary);
+	background-color: var(--color-dark-dominant-light);
+}
+
+footer p {
+	filter: brightness(80%);
+	text-align: center;
+}

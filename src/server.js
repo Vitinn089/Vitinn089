@@ -18,6 +18,15 @@ const PORT = process.env.PORT || 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const acessLog = (req, res, next) => {
+	const timeElapsed = Date.now();
+	const time = new Date(timeElapsed);
+	console.log(time.toLocaleString('pt-Br'));
+
+	
+
+	next();
+};
 
 
 app.set('views', path.join(__dirname, 'views'));
@@ -25,6 +34,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(acessLog);
 app.use('/', homePage);
 app.use('/about', aboutPage);
 

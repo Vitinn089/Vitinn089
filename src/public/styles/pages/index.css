@@ -81,6 +81,8 @@ nav .menu-selection {
     border-radius: 5rem;
 }
 
+/* CARDS */
+
 .cards {
 	display: flex;
 	overflow: scroll;
@@ -88,12 +90,15 @@ nav .menu-selection {
 	padding: 0 2.5rem 1rem ;
 }
 
+/* DESCRIPTION */
+
 .description {
 	color: var(--color-dark-secondary);
-	margin: 0 2.5rem;
+	margin: 3rem 2.5rem 0;
 }
 
-.description p {
+.description p,
+.description ul {
 	margin-top: 1rem;
 }
 
@@ -107,6 +112,7 @@ nav .menu-selection {
 .desc-header img{
 	width: 100%;
 	border-radius: 2.5rem 2.5rem 0 0;
+	filter: brightness(40%);
 }
 
 .desc-header-content {
@@ -132,4 +138,8 @@ nav .menu-selection {
 	border-radius: 0 0 2.5rem 2.5rem;
 
 	background-color: var(--color-dark-dominant-light);
+}
+
+.desc-content p + h3 {
+	margin-top: 1rem;
 }

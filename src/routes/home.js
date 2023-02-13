@@ -4,8 +4,11 @@ const router = express.Router();
 
 
 router.get('/', async (req, res) => {
-	const perfil = await fetch(process.env.URL_GITHUB).then(data => data.json());
-	const projects = await fetch(perfil.repos_url).then(data => data.json());
+	// const perfil = await fetch(process.env.URL_GITHUB).then(data => data.json());
+	// const projects = await fetch(perfil.repos_url).then(data => data.json());
+
+	const perfil = {};
+	const projects = [];
 
     
 	res.status(200);
