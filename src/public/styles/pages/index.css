@@ -80,7 +80,7 @@ nav .menu-selection {
 }
 
 .menu-selection[data-selected] {
-    border: .1rem solid var(--color-dark-secondary);
+    outline: .1rem solid var(--color-dark-secondary);
     border-radius: 5rem;
 }
 
@@ -90,7 +90,7 @@ nav .menu-selection {
 	display: flex;
 	overflow: scroll;
 
-	padding: 0 2.5rem 1rem ;
+	padding: .5rem 2.5rem 1rem ;
 }
 
 /* DESCRIPTION */

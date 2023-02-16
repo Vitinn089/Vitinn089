@@ -21,3 +21,17 @@
 .card + .card {
 	margin-left: 2.5rem;
 }
+
+.card[data-selected] img {
+	outline: .2rem solid var(--color-dark-featureda);
+
+	filter: brightness(115%);
+}
+
+.card[data-selected] h3 {
+	color: var(--color-dark-featureda);
+}
+
+.card:not([data-selected]) p {
+	filter: brightness(70%);
+}
