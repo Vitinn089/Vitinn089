@@ -1,7 +1,7 @@
 import express from 'express';
 import dotenv from 'dotenv';
 import path from 'node:path';
-import cors from 'cors';
+// import cors from 'cors';
 import { fileURLToPath } from 'node:url';
 import bodyParser from 'body-parser';
 
@@ -29,7 +29,7 @@ const acessLog = (req, res, next) => {
 
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
-app.use(cors);
+// app.use(cors);
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 app.use(express.static(path.join(__dirname, 'public')));

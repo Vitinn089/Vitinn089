@@ -1,31 +1,44 @@
 // Libs
 import fs from 'node:fs';
-// import setImageController from '../controllers/setImageController';
-// import setDataController from '../controllers/setDataController';
-
-// Methods
-const getStaticData = async () => {
-	let user
-	const avatar
-
-if (!fs.existsSync('../public/images/avatar.png')){
-	setImageController(avatar, 'avatar', 'png');
-}
-if (!fs.existsSync('../public/db/dataGitHub.json')){
-	
-}
-	
-	console.log();
+import path from 'node:path';
+import setImageController from '../controllers/setImageController.js';
+import setDataController from '../controllers/setDataController.js';
+import getDataController from '../controllers/getDataController.js';
 
 
-	// const user = await fetch(process.env.URL_GITHUB).then(data =>data.json());
-	// const avatar = await fetch(user.avatar_url).then(data =>data.json());
 
-	// setDataController(user, '../db/data-gitHub.json');
-	
+// Variables
+import projectsImgs from '../db/db.js';
+let avatarUrl;
+let projects;
+let paths = {
+	avatar: 'images/avatar.png',
+	perfil: 'db/perfil.json',
+	repos: 'db/repos.json'
 };
 
-getStaticData();
+// Methods
+export async function cachingData() {
+	try {
+		const perfil = await fetch(process.env.URL_GITHUB).then(async data => await data.json());
+		const repos = await fetch(perfil.repos_url).then(data => data.json());
+		setDataController(perfil, 'src/' + paths.perfil);
+		setDataController(repos, 'src/' + paths.repos); 
+		setImageController(perfil.avatar_url, 'avatar', 'png');
+	} catch (error) {
+		console.log('Erro no metodo: cachingData()\n', error);
+	}
+}
 
-// Out
-export default getStaticData;
+export default async function getStaticData () {
+	const isExistsFiles = !fs.existsSync(path.resolve('src/public', paths.avatar)) || !fs.existsSync(path.resolve('src/', paths.perfil)) || !fs.existsSync(path.resolve('src/', paths.repos));
+	console.log(path.resolve('src/', paths.avatar));
+
+	if (isExistsFiles)
+		await cachingData();
+
+	avatarUrl = paths.avatar;
+	projects = await getDataController('src/' + paths.repos);
+
+	return {avatarUrl, projects, projectsImgs};
+}

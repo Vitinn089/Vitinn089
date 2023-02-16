@@ -2,8 +2,12 @@
 import fs from 'node:fs/promises';
 
 // Methods
-function setDataController (data, path) {
-	fs.writeFile(path, JSON.stringify(data));
+async function setDataController (data, path) {
+	try {
+		await fs.writeFile(path, JSON.stringify(data));
+	} catch (error) {
+		console.log('erro no metodo: setDataController()\n', error);
+	}
 }
 
 // Out
