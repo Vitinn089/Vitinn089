@@ -1,19 +1,20 @@
-
-
+/* Perfil */
 .presentation-deslocate {
     position: relative;
-    background-color: var(--color-dark-dominant-light);
+
     height:40rem;
+
+    background-color: var(--color-dark-dominant-light);
 }
 
 .presentation {
+    position: absolute;
+    top: -3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     padding: 0 5rem 3.3rem;
-    position: absolute;
-    top: -3rem;
 
     color: var(--color-dark-secondary);
 }
@@ -21,6 +22,7 @@
 .avatar {
     height: var(--size-m-perfil);
     width: var(--size-m-perfil);
+
     border-radius: 50%;
 }
 
@@ -31,9 +33,10 @@
 
 .presentation-footer {
     display: flex;
+    justify-content: space-between;
+
     width: 100%;
     margin-top: 4.1rem;
-    justify-content: space-between;
 }
 
 .btn-contato {
@@ -93,8 +96,9 @@ nav .menu-selection {
 /* DESCRIPTION */
 
 .description {
-	color: var(--color-dark-secondary);
 	margin: 3rem 2.5rem 0;
+
+	color: var(--color-dark-secondary);
 }
 
 .description p,
@@ -103,19 +107,22 @@ nav .menu-selection {
 }
 
 .desc-header {
-	height: 10.4rem;
+	position: relative;
 	overflow: hidden;
 
-	position: relative;
+	height: 10.4rem;
 }
 
 .desc-header img{
 	width: 100%;
 	border-radius: 2.5rem 2.5rem 0 0;
+
 	filter: brightness(40%);
 }
 
 .desc-header-content {
+	position: absolute;
+	top: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -123,10 +130,6 @@ nav .menu-selection {
 
 	width: 100%;
 	height: 10.4rem;
-
-
-	position: absolute;
-	top: 0;
 }
 
 .desc-header p {

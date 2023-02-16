@@ -1,10 +1,11 @@
+// Libs
 import fs from 'node:fs/promises';
 
+// Variables
 let data;
 
-async function getDataController (path) {
+// Methods
+export default async function getDataController (path) {
 	data = await fs.readFile(path ,'utf-8');
 	return JSON.parse(data);
 }
-
-export default getDataController;

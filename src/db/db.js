@@ -1,4 +1,5 @@
-const project = [
+// Data
+const projects = [
 	{
 		name: 'devfinance',
 		title: 'devFinance',
@@ -36,4 +37,5 @@ const project = [
 	}
 ];
 
-export default project;
+// Out
+export default projects;

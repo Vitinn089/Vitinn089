@@ -5,10 +5,9 @@ import setImageController from '../controllers/setImageController.js';
 import setDataController from '../controllers/setDataController.js';
 import getDataController from '../controllers/getDataController.js';
 
-
-
 // Variables
 import projectsImgs from '../db/db.js';
+
 let avatarUrl;
 let projects;
 let paths = {

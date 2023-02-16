@@ -3,10 +3,10 @@
 
 	color: var(--color-dark-secondary);
 }
+
 .card img {
     width: 20.6rem;
     height: 10.4rem;
-
 	border-radius: .5rem;
 }
 
