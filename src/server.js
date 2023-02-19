@@ -10,6 +10,7 @@ import acessLog from './middleware/acessLog.js';
 // Import rotes
 import  homePage from  './routes/home.js';
 import  aboutPage from  './routes/about.js';
+import 	dataApi from  './routes/api.js';
 
 // Configs
 dotenv.config({
@@ -33,6 +34,7 @@ app.use(acessLog);
 // routes
 app.use('/', homePage);
 app.use('/about', aboutPage);
+app.use('/api', dataApi);
 
 app.listen(PORT, () => console.log(`\nServer is runing in http://localhost:${PORT}/\n`));
 
