@@ -1,4 +1,5 @@
-import alterProject from './functions/alterProject';
+// Libs
+import showProject from './functions/showProject.js';
 
 // Variables
 const optionsNavigation = document.querySelectorAll('.menu-selection');
@@ -16,5 +17,8 @@ cards.forEach(card => {
 	card.addEventListener('click', () => {
 		document.querySelector('.card[data-selected]').removeAttribute('data-selected');
 		card.setAttribute('data-selected', 'true');
+		showProject();
 	});
 });
+
+showProject();

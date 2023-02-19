@@ -2,7 +2,7 @@
 
 <% projectsImgs.forEach((projectImg, index) => { %>
 			<% if (project.name == projectImg.name && projectImg.display) {%>
-				<div class="card" data-project=<%= project.name %> onclick="alterProject( project, projectImg)"
+				<div class="card" data-project=<%= project.name %>
 					<% if (index == 0) { %>
 						data-selected="true"
 						<% } %>

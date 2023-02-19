@@ -7,6 +7,7 @@
   "scripts": {
     "start": "npm install --production && node src/server",
     "dev": "set NODE_ENV=development && node --trace-warnings --watch src/server",
+	"commit": "git add . && git commit",
     "test": "node src/middleware/getStaticData.js"
   },
   "author": "Vitor Lopes Franco",

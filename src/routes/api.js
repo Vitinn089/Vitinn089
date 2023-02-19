@@ -6,13 +6,6 @@ import handleDataJson from '../middleware/handleDataJson.js';
 const router = express.Router();
 
 // Methods
-router.get('/person', async (req, res) => {
-	handleDataJson(process.env.PATH_PERFIL).then(perfil => {
-		res.status(200);
-		res.json(perfil);
-	});
-});
-
 router.get('/repos', async (req, res) => {
 	handleDataJson(process.env.PATH_REPOS).then(repos => {
 		res.status(200);

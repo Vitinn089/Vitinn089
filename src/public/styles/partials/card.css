@@ -4,6 +4,10 @@
 	color: var(--color-dark-secondary);
 }
 
+.card:hover {
+	cursor: pointer;
+}
+
 .card img {
     width: 20.6rem;
     height: 10.4rem;
