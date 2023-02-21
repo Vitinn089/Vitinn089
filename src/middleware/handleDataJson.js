@@ -13,6 +13,7 @@ export default async function handleDataJson (path) {
 			description: repo.description,
 			url: repo.html_url,
 			languages: await fetch(repo.languages_url).then(res => res.json()),
+			topics: repo.topics,
 			...images
 		};
 	});

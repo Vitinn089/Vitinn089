@@ -42,7 +42,9 @@
 
 		<div class="cards">
 			<% projects.forEach(project => { %>
-					<%- include('../partials/Home/card.ejs', {project, projectsImgs}) %>
+				<% if (project.display) { %>
+					<%- include('../partials/Home/card.ejs', {project}) %>
+				<% } %>
 			<% }); %>
 		</div>
 

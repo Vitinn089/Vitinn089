@@ -1,13 +1,15 @@
 <!-- <link rel="stylesheet" href="/styles/partials/card.css"> -->
-
-<% projectsImgs.forEach((projectImg, index) => { %>
-			<% if (project.name == projectImg.name && projectImg.display) {%>
-				<div class="card" data-project=<%= project.name %>>
-					<div class="image-selected">
-						<img src=<%= projectImg.capaUrl %> alt=<%= projectImg.capaUrl %>>
-					</div>
-					<h3	 class="title3"><%= projectImg.title %></h3>
-					<p class="desc2">React \\ React Native \\ Styled Componets </p>
-				</div>
-			<% } %>
-<% }) %>
+	<div class="card" data-project=<%= project.name %>>
+		<div class="image-selected">
+			<img src=<%= project.capaUrl %> alt=<%= project.capaUrl %>>
+		</div>
+		<h3	 class="title3"><%= project.title %></h3>
+		<p class="desc2">
+			<% let text =''
+			project.topics.forEach((topic, i) => { 
+				let b = i == 0 ? '' : ' // ' 
+				text +=  b + topic.toUpperCase()
+			}) %>
+				<%= text %>
+		</p>
+	</div>

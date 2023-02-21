@@ -1,7 +1,7 @@
 export default function showProject () {
 	const cardSelected = document.querySelector('.card[data-selected');
 	const projectSelected = cardSelected.getAttribute('data-project');
-	const currentProject = JSON.parse(localStorage.repos).filter(project => projectSelected == project.name ? true : false)[0];
+	const currentProject = JSON.parse(sessionStorage.repos).filter(project => projectSelected == project.name ? true : false)[0];
 
 
 	const languageMsg = Object.keys(currentProject.languages).reduce((text, lang, i, a) => {

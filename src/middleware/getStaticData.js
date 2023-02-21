@@ -3,10 +3,9 @@ import fs from 'node:fs';
 import path from 'node:path';
 import setImageController from '../controllers/setImageController.js';
 import setDataController from '../controllers/setDataController.js';
-import getDataController from '../controllers/getDataController.js';
+import handleDataJson from './handleDataJson.js';
 
 // Variables
-let projectsImgs = await getDataController('src/db/projectsImages.json');
 let avatarUrl;
 let projects;
 let paths = {
@@ -37,7 +36,7 @@ export default async function getStaticData () {
 		await cachingData();
 
 	avatarUrl = paths.avatar;
-	projects = await getDataController('src/' + paths.repos);
+	projects = await handleDataJson(paths.repos);
 
-	return {avatarUrl, projects, projectsImgs};
+	return {avatarUrl, projects};
 }

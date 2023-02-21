@@ -7,10 +7,10 @@ const router = express.Router();
 
 // Methods
 router.get('/', async (req, res) => {
-	const { avatarUrl, projects, projectsImgs } = await getStaticData();
+	const { avatarUrl, projects } = await getStaticData();
 
 	res.status(200);
-	res.render('pages/index', {avatarUrl, projects, projectsImgs});
+	res.render('pages/index', {avatarUrl, projects});
 });
 
 // Out
