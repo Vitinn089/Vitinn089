@@ -9,9 +9,9 @@ export default function showProject () {
 		return text;
 	}, '');
 
-	document.querySelector('.desc-header img').setAttribute('src', `/images/inicio-${currentProject.name}.png`);
-	document.querySelector('.desc-header-content h2').textContent = currentProject.title;
-	document.querySelector('.desc-header-content p').textContent = languageMsg;
-	document.querySelector('.desc-content p').textContent = currentProject.description;
+	document.querySelector('.board-header img').setAttribute('src', `/images/inicio-${currentProject.name}.png`);
+	document.querySelector('.board-header-content h2').textContent = currentProject.title;
+	document.querySelector('.board-header-content p').textContent = languageMsg;
+	document.querySelector('.board-content p').textContent = currentProject.description;
 	// let ul = document.querySelector('.desc-content ul');
 }
