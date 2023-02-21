@@ -13,7 +13,10 @@ optionsNavigation.forEach(option => {
 	});
 });
 
-cards.forEach(card => {
+cards.forEach((card, index) => {
+	if (index == 0)
+		card.setAttribute('data-selected', 'true');
+
 	card.addEventListener('click', () => {
 		document.querySelector('.card[data-selected]').removeAttribute('data-selected');
 		card.setAttribute('data-selected', 'true');
