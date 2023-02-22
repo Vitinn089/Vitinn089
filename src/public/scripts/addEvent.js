@@ -1,4 +1,5 @@
 // Libs
+import setLocalStorage from './functions/setLocalStorage.js';
 import showProject from './functions/showProject.js';
 
 // Variables
@@ -24,4 +25,5 @@ cards.forEach((card, index) => {
 	});
 });
 
+await setLocalStorage();
 showProject();

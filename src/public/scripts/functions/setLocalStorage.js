@@ -10,5 +10,3 @@ export default async function setLocalStorage () {
 		await handleRequest('repos');
 	}	
 }
-
-await setLocalStorage();
