@@ -66,6 +66,7 @@
 
 .board-header p {
 	color: var(--color-dark-featureda);
+	font-weight: 400;
 }
 
 .board-content {
