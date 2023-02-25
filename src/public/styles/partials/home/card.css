@@ -21,10 +21,14 @@
 	justify-content: space-between;
 }
 
-.card h3 img {
+.card h3 svg {
 	width: 1.8rem;
 	height: 1.8rem;
 	margin-right: 1rem;
+}
+
+.card h3 svg:hover path {
+	fill: var(--color-dark-featureda)
 }
 
 .card p {
