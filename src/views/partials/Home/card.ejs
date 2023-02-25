@@ -3,13 +3,6 @@
 		<div class="image-selected">
 			<img src=<%= project.capaUrl %> alt=<%= project.capaUrl %>>
 		</div>
-		<h3	 class="title3"><%= project.title %></h3>
-		<p class="desc2">
-			<% let text =''
-			project.topics.forEach((topic, i) => { 
-				let b = i == 0 ? '' : ' // ' 
-				text +=  b + topic.toUpperCase()
-			}) %>
-				<%= text %>
-		</p>
+		<h3	 class="title3"><%= project.title %> <a href=<%= project.url %> target="__parent"><img src="icons/github.svg" alt=""></a></h3>
+		<p class="desc2"><%= project.languages %></p>
 	</div>
