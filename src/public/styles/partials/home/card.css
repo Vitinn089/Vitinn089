@@ -5,7 +5,7 @@
 	color: var(--color-dark-secondary);
 }
 
-.card:hover {
+.image-selected:hover {
 	cursor: pointer;
 }
 
