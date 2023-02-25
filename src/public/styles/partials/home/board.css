@@ -29,12 +29,28 @@
 	cursor: pointer;
 }
 
+.board-header:hover .links-external path{
+	fill: var(--color-dark-featureda);
+}
+
+.board-header:hover .board-header-content h2,
+.board-header:hover .board-header-content p {
+	text-decoration: underline;
+}
+
 .board-header img{
 	width: 100%;
 	border-radius: 2.5rem 2.5rem 0 0;
 
 	filter: brightness(40%);
 }
+
+.board-header .links-external {
+	position: absolute;
+    top: 1rem;
+    right: 2rem;
+}
+
 
 .board-header-content {
 	position: absolute;

@@ -9,6 +9,11 @@
 	cursor: pointer;
 }
 
+.image-selected:hover + h3,
+.image-selected:hover + h3 + p {
+	text-decoration: underline;
+}
+
 .card img {
     width: 20.6rem;
     height: 10.4rem;
