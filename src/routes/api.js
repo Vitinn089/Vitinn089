@@ -1,15 +1,15 @@
 // Libs
 import { express } from '../server.js';
-import handleDataJson from '../middleware/handleDataJson.js';
+import getStaticData from '../middleware/getStaticData.js';
 
 // Variables
 const router = express.Router();
 
 // Methods
 router.get('/repos', async (req, res) => {
-	handleDataJson(process.env.PATH_REPOS).then(repos => {
+	getStaticData().then(({projects}) => {
 		res.status(200);
-		res.json(repos);
+		res.json(projects);
 	});
 });
 

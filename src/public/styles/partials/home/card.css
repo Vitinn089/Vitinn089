@@ -1,6 +1,7 @@
 .card {
 	width: min-content;
-
+    max-width: 20.6rem;
+	
 	color: var(--color-dark-secondary);
 }
 
@@ -16,9 +17,21 @@
 
 .card h3 {
 	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card h3 img {
+	width: 1.8rem;
+	height: 1.8rem;
+	margin-right: 1rem;
 }
 
 .card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
 	margin-top: .5rem;
 }
 
@@ -26,7 +39,7 @@
 	margin-left: 2.5rem;
 }
 
-.card[data-selected] img {
+.card[data-selected] .image-selected img {
 	outline: .2rem solid var(--color-dark-featureda);
 
 	filter: brightness(115%);
