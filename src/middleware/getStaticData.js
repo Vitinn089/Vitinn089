@@ -12,12 +12,16 @@ let paths = {
 	avatar: 'images/avatar.png',
 };
 
+let headers = {
+	Authorization: process.env.TOKEN_GITHUB
+};
+
 // Methods
 export async function cachingData() {
 	try {
 		console.log('\nRealizando fetch\n');
-		const perfil = await fetch(process.env.URL_GITHUB).then(async data => await data.json());
-		const repos = await fetch(perfil.repos_url).then(data => data.json());
+		const perfil = await fetch(process.env.URL_GITHUB,{headers} ).then(async data => await data.json());
+		const repos = await fetch(perfil.repos_url, {headers}).then(data => data.json());
 		setDataController(perfil, 'src/' + paths.perfil);
 		setDataController(repos, 'src/' + paths.repos); 
 		setImageController(perfil.avatar_url, 'avatar', 'png');
