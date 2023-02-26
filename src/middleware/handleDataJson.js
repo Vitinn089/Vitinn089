@@ -6,10 +6,10 @@ let headers = {
 
 export default async function handleDataJson (path) {
 	const repos =  await getDataController('src/' + path);
-	const projectsImages = await getDataController('src/db/projectsImages.json');
+	const configs = await getDataController('src/db/config.json');
 
 	let obj = repos.map(async (repo) => {
-		let images = projectsImages.filter(project => project.name == repo.name)[0];
+		let images = configs.filter(project => project.name == repo.name)[0];
 		let languages = Object.keys(await fetch(repo.languages_url, {headers}).then(res => res.json())).reduce((text, lang, i, a) => {
 			i == (a.length-1) ?  text += lang : text += lang + ' // ';
 			return text;
