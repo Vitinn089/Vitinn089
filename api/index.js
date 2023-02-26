@@ -5,12 +5,12 @@ import express from 'express';
 import dotenv from 'dotenv';
 // import cors from 'cors';
 import bodyParser from 'body-parser';
-import acessLog from './middleware/acessLog.js';
+import acessLog from '../src/middleware/acessLog.js';
 
 // Import rotes
-import  homePage from  './routes/home.js';
-import  aboutPage from  './routes/about.js';
-import 	dataApi from  './routes/api.js';
+import  homePage from  '../src/routes/home.js';
+import  aboutPage from  '../src/routes/about.js';
+import 	dataApi from  '../src/routes/api.js';
 
 // Configs
 dotenv.config({
