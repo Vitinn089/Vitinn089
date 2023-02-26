@@ -39,3 +39,4 @@ app.use('/api', dataApi);
 app.listen(PORT, () => console.log(`\nServer is runing in http://localhost:${PORT}/\n`));
 
 export  {express};
+export default app
