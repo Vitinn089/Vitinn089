@@ -1,5 +1,5 @@
 // Libs
-import { express } from '../server.js';
+import { express } from '../index.js';
 import getStaticData from '../middleware/getStaticData.js';
 
 // Variables
