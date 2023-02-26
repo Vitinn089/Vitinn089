@@ -7,8 +7,18 @@
     --color-dark-featureda: #31E981;
     --color-dark-dominant-light: #42414C;
 
-    /* tamanhos */
+    /* tamanhos de imagens*/
     --size-m-perfil: 10rem;
+	--size-w-card: 20.6rem;
+	--size-h-card: 10.2rem;
+	/* --size-d-w-card: 25.7rem;
+	--size-d-h-card: 12.7rem; */
+
+	/* outros tamanhos */
+	--btn-contato-h: 3.4rem;
+	--btn-contato-w: 12rem;
+	--icon-size-w: 1.8rem;
+	--icon-size-h: 1.8rem;
 }
 
 * {
@@ -79,4 +89,37 @@ span.emphasis {
 
 .disabled {
 	display: none;
+}
+
+@media (min-width: 700px) {
+	:root {
+
+		/* tamanhos de imagens*/
+		--size-w-card: 25.7rem;
+		--size-h-card: 12.7rem;
+
+
+		--btn-contato-h: 3.8rem;
+		--btn-contato-w: 17.4rem;
+		--icon-size-w: 2.61rem;
+		--icon-size-h: 2.61rem;
+	}
+
+	.title {
+		font-size: 3.2rem;
+	}
+	
+	.title2 {
+		font-size: 2.61rem;
+	}
+	
+	.title3,
+	.desc {
+		font-size: 2.32rem;
+	}
+	
+	.desc2,
+	.text {
+		font-size: 1.74rem;
+	}
 }

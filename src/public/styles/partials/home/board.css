@@ -3,6 +3,8 @@
 .board {
 	margin: 3rem 2.5rem 0;
 
+	max-width: 70rem;
+
 	color: var(--color-dark-secondary);
 }
 
@@ -27,6 +29,11 @@
 
 .board-header:hover {
 	cursor: pointer;
+}
+
+.board-header .links-external svg {
+	width: var(--icon-size-w);
+	height: var(--icon-size-h);;
 }
 
 .board-header:hover .links-external path{
@@ -111,4 +118,10 @@
 	
     background-color: var(--color-dark-featureda);
     opacity: 45%;
+}
+
+@media  (min-width: 700px) {
+	.board {
+		margin: 3rem auto 0;
+	}
 }

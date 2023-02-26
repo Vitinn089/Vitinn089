@@ -5,9 +5,10 @@ header {
     justify-content: end;
     
     width: 100%;
+	max-width: 70rem;
     height: 2rem;
     padding: 0 2rem;
-    margin-bottom: 3rem;
+    margin: 0 auto 3rem;
 }
 
 header a {

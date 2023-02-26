@@ -1,8 +1,10 @@
 /* Perfil */
 .presentation-deslocate {
     position: relative;
+	display: flex;
+	justify-content: center;
 
-    height:40rem;
+    height:38rem;
 
     background-color: var(--color-dark-dominant-light);
 }
@@ -13,7 +15,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-
+	
+	width: 100%;
+	max-width: 60rem;
     padding: 0 5rem 3.3rem;
 
     color: var(--color-dark-secondary);
@@ -44,8 +48,8 @@
     align-items: center;
     justify-content: center;
 
-    height: 3.4rem;
-    width: 12rem;
+    height: var(--btn-contato-h);
+    width: var(--btn-contato-w);
     border-radius: .5rem;
 
     background-color: var( --color-dark-featureda);
@@ -54,6 +58,17 @@
 
 .btn-contato img + span {
     margin-left: .4rem;
+}
+
+.presentation-footer .box-icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.presentation-footer .icon img {
+	width: var(--icon-size-w);
+	height: var(--icon-size-h);
 }
 
 .presentation-footer .icon + .icon {
@@ -88,7 +103,21 @@ nav .menu-selection {
 
 .cards {
 	display: flex;
-	overflow: scroll;
+	overflow-x: scroll;
+
+	max-width: 70rem;
+	margin: auto;
 
 	padding: .5rem 2.5rem 1rem ;
+}
+
+
+@media (min-width: 700px) {
+	#container {
+		display: grid;
+	}
+
+	.presentation-deslocate {
+		height: 44rem;
+	}
 }

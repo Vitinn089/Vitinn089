@@ -1,12 +1,24 @@
 .card {
-	width: min-content;
-    max-width: 20.6rem;
+    max-width: var(--size-w-card);
 	
 	color: var(--color-dark-secondary);
 }
 
+.image-selected {
+	max-width: var(--size-w-card);
+    max-height: var(--size-h-card);
+    overflow: hidden;
+}
+
 .image-selected:hover {
 	cursor: pointer;
+}
+
+.card[data-selected] .image-selected {
+	outline: .2rem solid var(--color-dark-featureda);
+	border-radius: .5rem;
+
+	filter: brightness(115%);
 }
 
 .image-selected:hover + h3,
@@ -15,8 +27,8 @@
 }
 
 .card img {
-    width: 20.6rem;
-    height: 10.4rem;
+    width: var(--size-w-card);
+    height: var(--size-h-card);
 	border-radius: .5rem;
 }
 
@@ -27,8 +39,8 @@
 }
 
 .card h3 svg {
-	width: 1.8rem;
-	height: 1.8rem;
+	width: var(--icon-size-w);
+	height: var(--icon-size-h);;
 	margin-right: 1rem;
 }
 
@@ -46,12 +58,6 @@
 
 .card + .card {
 	margin-left: 2.5rem;
-}
-
-.card[data-selected] .image-selected img {
-	outline: .2rem solid var(--color-dark-featureda);
-
-	filter: brightness(115%);
 }
 
 .card[data-selected] h3 {
