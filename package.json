@@ -5,8 +5,8 @@
   "type": "module",
   "main": "api/index.js",
   "scripts": {
-    "start": "npm install --production && node src/server",
-    "dev": "set NODE_ENV=development && node --inspect --trace-warnings --watch src/server",
+    "start": "npm install --production && node api/index.js",
+    "dev": "set NODE_ENV=development && node --inspect --trace-warnings --watch api/index.js",
 	"commit": "git add . && git commit",
     "test": "node src/middleware/getStaticData.js"
   },

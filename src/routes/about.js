@@ -1,5 +1,5 @@
 // Libs
-import { express } from '../index.js';
+import { express } from '../../api/index.js';
 
 // Variables
 const router = express.Router();
