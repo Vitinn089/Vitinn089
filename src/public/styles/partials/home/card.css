@@ -1,0 +1,69 @@
+.card {
+    max-width: var(--size-w-card);
+	
+	color: var(--color-dark-secondary);
+}
+
+.image-selected {
+	max-width: var(--size-w-card);
+    max-height: var(--size-h-card);
+    overflow: hidden;
+}
+
+.image-selected:hover {
+	cursor: pointer;
+}
+
+.card[data-selected] .image-selected {
+	outline: .2rem solid var(--color-dark-featureda);
+	border-radius: .5rem;
+
+	filter: brightness(115%);
+}
+
+.image-selected:hover + h3,
+.image-selected:hover + h3 + p {
+	text-decoration: underline;
+}
+
+.card img {
+    width: var(--size-w-card);
+    height: var(--size-h-card);
+	border-radius: .5rem;
+}
+
+.card h3 {
+	margin-top: 1rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.card h3 svg {
+	width: var(--icon-size-w);
+	height: var(--icon-size-h);;
+	margin-right: 1rem;
+}
+
+.card h3 svg:hover path {
+	fill: var(--color-dark-featureda)
+}
+
+.card p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+	margin-top: .5rem;
+}
+
+.card + .card {
+	margin-left: 2.5rem;
+}
+
+.card[data-selected] h3 {
+	color: var(--color-dark-featureda);
+}
+
+.card:not([data-selected]) p {
+	filter: brightness(70%);
+}

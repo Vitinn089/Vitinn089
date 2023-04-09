@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    /* cores */
+    --color-dark-dominant: #232528;
+    --color-dark-secondary: #EAF6FF;
+    --color-dark-featureda: #31E981;
+    --color-dark-dominant-light: #42414C;
+
+    /* tamanhos de imagens*/
+    --size-m-perfil: 10rem;
+	--size-w-card: 20.6rem;
+	--size-h-card: 10.2rem;
+	/* --size-d-w-card: 25.7rem;
+	--size-d-h-card: 12.7rem; */
+
+	/* outros tamanhos */
+	--btn-contato-h: 3.4rem;
+	--btn-contato-w: 12rem;
+	--icon-size-w: 1.8rem;
+	--icon-size-h: 1.8rem;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+html,
+body {
+    height: 100%;
+    font-size: 62.5%; /* 1rem = 10px */
+}
+
+body {
+    background-color: var(--color-dark-dominant);
+}
+
+body,
+button,
+input,
+textarea{
+    /* Intervalo de tamanho: clamp(Tamanho mínimo, tamanho padrão, tamanho máximo) responsividade */
+    font-size: clamp(14px, 1.6rem, 2vw);
+}
+
+#container {
+    height: 100%;
+}
+
+/* FONTES ___________ */
+
+.title {
+    font: 600 2.2rem "Unbounded", sans-serif;
+}
+
+.title2 {
+    font: 600 1.8rem "Unbounded", sans-serif;
+}
+
+.title3 {
+    font: 600 1.6rem "Unbounded", sans-serif;
+}
+
+.desc {
+    font: 300 1.6rem "Unbounded", sans-serif;
+}
+
+.desc2 {
+    font: 200 1.2rem "Unbounded", sans-serif;
+}
+
+.text {
+    font: 300 1.2rem "Unbounded", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+span.emphasis {
+    color: var(--color-dark-featureda);
+}
+
+/* CONFIGS */
+
+.disabled {
+	display: none;
+}
+
+@media (min-width: 700px) {
+	:root {
+
+		/* tamanhos de imagens*/
+		--size-w-card: 25.7rem;
+		--size-h-card: 12.7rem;
+
+
+		--btn-contato-h: 3.8rem;
+		--btn-contato-w: 17.4rem;
+		--icon-size-w: 2.61rem;
+		--icon-size-h: 2.61rem;
+	}
+
+	.title {
+		font-size: 3.2rem;
+	}
+	
+	.title2 {
+		font-size: 2.61rem;
+	}
+	
+	.title3,
+	.desc {
+		font-size: 2.32rem;
+	}
+	
+	.desc2,
+	.text {
+		font-size: 1.74rem;
+	}
+}
