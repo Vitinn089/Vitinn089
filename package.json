@@ -1,0 +1,25 @@
+{
+  "name": "vitinn",
+  "version": "1.0.0",
+  "description": "Personal site for the dissemination of my work.",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm install --production && node src/server",
+    "dev": "set NODE_ENV=development && node --inspect --trace-warnings --watch src/server",
+    "start:dev": "set NODE_ENV=development && node --inspect --trace-warnings --watch src2/server",
+	"commit": "git add . && git commit",
+    "test": "node src/middleware/getStaticData.js"
+  },
+  "author": "Vitor Lopes Franco",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0"
+  }
+}
