@@ -44,15 +44,15 @@
 <img src="https://github-readme-stats.vercel.app/api?username=Vitinn089" alt="Vitinn089" align="right">
 </a> -->
 
-<div aling="left">
-<h3>💭 Repositórios Recomendados:</h3>
 
-<p>Sei que ainda estou aprendendo e também sei que estou no caminho certo, portanto, deixo aqui alguns repositórios de estudos para acompanhamento de meu desenvolvimento como dev.</p>
+<h3 align="left">💭 Repositórios Recomendados:</h3>
+
+<p aling="left">Sei que ainda estou aprendendo e também sei que estou no caminho certo, portanto, deixo aqui alguns repositórios de estudos para acompanhamento de meu desenvolvimento como dev.</p>
 
 - ✏️ [FeedGet](https://github.com/Vitinn089/nlw-return);
 - ✏️ [NLW2](https://github.com/Vitinn089/nlw2);
 - ✏️ [Projeto materiais de construção](https://github.com/Vitinn089/Estudo-MateriaisConstrucao).	
-</div>
+
 
 
 <h3> 📞 Contato:</h3>
