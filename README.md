@@ -2,9 +2,7 @@
 
 <p align="left"> 📝 Tenho 20 anos e sou estudante de ciências da computação. Atualmente busco uma oportunidade para ingressar no mercado de trabalho como desenvolvedor web front-end, seja trabalho fixo ou freelancer.</p>
 
-<a href="https://roadmap.sh">
-<img src="https://roadmap.sh/card/tall/673f7afe5434bf319a128575?variant=dark" alt="roadmap.sh" align="right"/>
-</a>
+<a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/673f7afe5434bf319a128575?variant=dark" alt="roadmap.sh" align="right"/></a>
 
 <h3>🤩 Habilidades desenvolvidas:</h3>
 
