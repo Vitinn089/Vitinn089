@@ -2,9 +2,7 @@
 
 <p align="left"> 📝 Tenho 20 anos e sou estudante de ciências da computação. Atualmente busco uma oportunidade para ingressar no mercado de trabalho como desenvolvedor web front-end, seja trabalho fixo ou freelancer.</p>
 
-<a href="https://github.com/Vitinn089/">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dark" alt="Vitinn089" align="right">
-</a>
+<a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/673f7afe5434bf319a128575?variant=dark" alt="roadmap.sh" align="right"/></a>
 
 <h3>🤩 Habilidades desenvolvidas:</h3>
 
@@ -37,16 +35,23 @@
 
 <!--
 <a href="https://github.com/Vitinn089/">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dark" alt="Vitinn089" align="right">
+</a>
+
+<a href="https://github.com/Vitinn089/">
 <img src="https://github-readme-stats.vercel.app/api?username=Vitinn089" alt="Vitinn089" align="right">
 </a> -->
 
-<h3>💭 Repositórios Recomendados:</h3>
 
-<p>Sei que ainda estou aprendendo e também sei que estou no caminho certo, portanto, deixo aqui alguns repositórios de estudos para acompanhamento de meu desenvolvimento como dev.</p>
+<h3 align="left">💭 Repositórios Recomendados:</h3>
+
+<p aling="left">Sei que ainda estou aprendendo e também sei que estou no caminho certo, portanto, deixo aqui alguns repositórios de estudos para acompanhamento de meu desenvolvimento como dev.</p>
 
 - ✏️ [FeedGet](https://github.com/Vitinn089/nlw-return);
 - ✏️ [NLW2](https://github.com/Vitinn089/nlw2);
-- ✏️ [Projeto materiais de construção](https://github.com/Vitinn089/Estudo-MateriaisConstrucao).
+- ✏️ [Projeto materiais de construção](https://github.com/Vitinn089/Estudo-MateriaisConstrucao).	
+
+
 
 <h3> 📞 Contato:</h3>
 
