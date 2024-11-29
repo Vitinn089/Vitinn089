@@ -2,10 +2,11 @@
 
 :root {
     /* cores */
-    --color-dark-dominant: #232528;
-    --color-dark-secondary: #EAF6FF;
-    --color-dark-featureda: #31E981;
-    --color-dark-dominant-light: #42414C;
+	--hue: 271;
+    --color-dark-dominant: hsl(216, 7%, 15%);
+    --color-dark-secondary: hsl(206, 100%, 96%);
+    --color-dark-featureda: hsl(var(--hue), 81%, 55%);
+    --color-dark-dominant-light: hsl(245, 8%, 28%);
 
     /* tamanhos de imagens*/
     --size-m-perfil: 10rem;
@@ -15,8 +16,7 @@
 	--size-d-h-card: 12.7rem; */
 
 	/* outros tamanhos */
-	--btn-contato-h: 3.4rem;
-	--btn-contato-w: 12rem;
+
 	--icon-size-w: 1.8rem;
 	--icon-size-h: 1.8rem;
 }
@@ -31,7 +31,7 @@
 
 html,
 body {
-    height: 100%;
+	width: 100%;
     font-size: 62.5%; /* 1rem = 10px */
 }
 
@@ -45,43 +45,67 @@ input,
 textarea{
     /* Intervalo de tamanho: clamp(Tamanho mínimo, tamanho padrão, tamanho máximo) responsividade */
     font-size: clamp(14px, 1.6rem, 2vw);
+	font-family: "Unbounded", sans-serif;
 }
 
-#container {
-    height: 100%;
+#page {
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container {
+	width: min(100vw, 110rem);
+	padding-inline: 3rem;
 }
 
 /* FONTES ___________ */
 
-.title {
-    font: 600 2.2rem "Unbounded", sans-serif;
+h1 {
+	font-weight: 600 ;
+	font-size: clamp(2rem, 6vw, 4rem);
+	line-height: clamp(4rem, 5vw, 4rem);
 }
 
-.title2 {
-    font: 600 1.8rem "Unbounded", sans-serif;
+.sub {
+	font-weight: 300 ;
+	font-size: clamp(1.6rem, 2vw, 2rem);
+	line-height: clamp(2.4rem, 2vw, 3rem);
 }
 
-.title3 {
-    font: 600 1.6rem "Unbounded", sans-serif;
+h2 {
+	font-weight: 600 ;
+	font-size: clamp(1.8rem, 4vw, 2.8rem);
+	line-height: clamp(2rem, 3vw, 4rem);
+}
+
+h3 {
+	font-weight: 600 ;
+	font-size: clamp(1.6rem, 3vw, 2rem);
+	line-height: clamp(2rem, 3vw, 3rem);
 }
 
 .desc {
-    font: 300 1.6rem "Unbounded", sans-serif;
+	font-weight: 300 ;
+	font-size: clamp(1.6rem, 1vw, 1.8rem);
+	line-height: clamp(2.4rem, 2vw, 3rem);
 }
 
-.desc2 {
-    font: 200 1.2rem "Unbounded", sans-serif;
+.desc.selected {
+	font-weight: 600;
 }
 
 .text {
-    font: 300 1.2rem "Unbounded", sans-serif;
+	font-weight: 300 ;
+	font-size: clamp(1.4rem, 2vw, 1.6rem);
+	line-height: clamp(2.4rem, 2vw, 3rem);
 }
 
 a {
     text-decoration: none;
 }
 
-span.emphasis {
+strong {
     color: var(--color-dark-featureda);
 }
 
@@ -89,6 +113,11 @@ span.emphasis {
 
 .disabled {
 	display: none;
+}
+
+.flex {
+	display: flex;
+
 }
 
 @media (min-width: 700px) {
@@ -103,23 +132,5 @@ span.emphasis {
 		--btn-contato-w: 17.4rem;
 		--icon-size-w: 2.61rem;
 		--icon-size-h: 2.61rem;
-	}
-
-	.title {
-		font-size: 3.2rem;
-	}
-	
-	.title2 {
-		font-size: 2.61rem;
-	}
-	
-	.title3,
-	.desc {
-		font-size: 2.32rem;
-	}
-	
-	.desc2,
-	.text {
-		font-size: 1.74rem;
 	}
 }

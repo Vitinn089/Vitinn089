@@ -1,9 +1,8 @@
 /* DESCRIPTION */
 
 .board {
-	margin: 3rem 2.5rem 0;
-
-	max-width: 70rem;
+	margin-inline: auto;
+	margin-top: 2rem;
 
 	color: var(--color-dark-secondary);
 }
@@ -14,12 +13,15 @@
 }
 
 .board-header {
+	height: 15rem;
+	object-fit: cover;
+	
 	position: relative;
 	overflow: hidden;
 	display: block;
-
-	height: 10.4rem;
 }
+
+
 
 .board-header:link,
 .board-header:visited,
@@ -29,6 +31,13 @@
 
 .board-header:hover {
 	cursor: pointer;
+}
+
+.wrapper {
+	width: 100%;
+	padding: 3rem 3rem;
+	position: absolute;
+	top: 0;
 }
 
 .board-header .links-external svg {
@@ -60,8 +69,6 @@
 
 
 .board-header-content {
-	position: absolute;
-	top: 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -72,6 +79,7 @@
 }
 
 .board-header p {
+	text-align: center;
 	color: var(--color-dark-featureda);
 	font-weight: 400;
 }
@@ -89,7 +97,7 @@
 
 .board-content ul {
 	display: grid;	
-	grid-template-columns: 1fr 1fr;
+	grid-template-columns: repeat(3, 1fr);
 	row-gap: .5rem;
 }
 
@@ -118,10 +126,4 @@
 	
     background-color: var(--color-dark-featureda);
     opacity: 45%;
-}
-
-@media  (min-width: 700px) {
-	.board {
-		margin: 3rem auto 0;
-	}
 }

@@ -4,6 +4,7 @@ import sessionStorage from './factories/sessionStorage.js';
 
 // Variables
 const optionsNavigation = document.querySelectorAll('.menu-selection');
+const cardsConteiner = document.querySelector('.cards')
 const cards = document.querySelectorAll('.card');
 const projectsSessionStore = sessionStorage('projects')
 
@@ -19,15 +20,18 @@ optionsNavigation.forEach(option => {
 	});
 });
 
+
 cards.forEach((card, index) => {
 	if (index == 0)
 		card.setAttribute('data-selected', 'true');
 
-	card.querySelector('.image-selected').addEventListener('click', () => {
+	card.addEventListener('click', () => {
 		document.querySelector('.card[data-selected]').removeAttribute('data-selected');
 		card.setAttribute('data-selected', 'true');
 		showProject(projectsSessionStore.get());
 	});
 });
+
+
 
 showProject(projectsSessionStore.get());

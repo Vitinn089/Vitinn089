@@ -9,7 +9,6 @@ const router = express.Router()
 // Methods
 router.get('/', (req, res) => {
 	const controller = homeFactory.initialize()
-	
 	controller.index(req, res)
 })
 

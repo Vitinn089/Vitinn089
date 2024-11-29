@@ -1,18 +1,38 @@
 header {
-    position: sticky;
-    display: flex;
+	position: sticky;
+	top: 0;
+	z-index: 1;
+	width: 100%;
+	justify-content: center;
+	background-color: var(--color-dark-dominant-light);
+}
+header .container{
+	background-color: var(--color-dark-dominant-light);
+	align-items: center;
+	justify-content: space-between;
+    padding:1.5rem 3rem;
+}
+
+header nav{
     align-items: center;
     justify-content: end;
     
-    width: 100%;
-	max-width: 70rem;
+
     height: 2rem;
-    padding: 0 2rem;
-    margin: 0 auto 3rem;
+}
+
+header .logo {
+	width: 5rem;
+	height: 5rem;
 }
 
 header a {
     color: var(--color-dark-secondary);
+	transition: color 200ms;
+}
+
+header .desc:hover {
+	color: var(--color-dark-featureda)
 }
 
 header a + a {

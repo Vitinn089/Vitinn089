@@ -1,7 +1,12 @@
 .card {
     max-width: var(--size-w-card);
-	
+	scroll-snap-align: center;
 	color: var(--color-dark-secondary);
+}
+
+.card:hover {
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 .image-selected {
@@ -10,20 +15,11 @@
     overflow: hidden;
 }
 
-.image-selected:hover {
-	cursor: pointer;
-}
-
 .card[data-selected] .image-selected {
 	outline: .2rem solid var(--color-dark-featureda);
 	border-radius: .5rem;
 
-	filter: brightness(115%);
-}
-
-.image-selected:hover + h3,
-.image-selected:hover + h3 + p {
-	text-decoration: underline;
+	filter: brightness(.8);
 }
 
 .card img {
@@ -56,8 +52,10 @@
 	margin-top: .5rem;
 }
 
-.card + .card {
-	margin-left: 2.5rem;
+.card  h3,
+.card p,
+.card img{
+	transition: color 2ms, filter 2ms;
 }
 
 .card[data-selected] h3 {

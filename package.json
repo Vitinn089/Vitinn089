@@ -6,8 +6,8 @@
   "main": "server.js",
   "scripts": {
     "start": "npm install --production && node src/server",
-    "dev": "set NODE_ENV=development && node --inspect --trace-warnings --watch src/server",
-    "start:dev": "set NODE_ENV=development && node --inspect --trace-warnings --watch src2/server",
+    "dev": "set NODE_ENV=develop&& node --inspect --trace-warnings --watch src/server",
+    "start:dev": "set NODE_ENV=develop&& node --inspect --trace-warnings --watch src/server",
 	"commit": "git add . && git commit",
     "test": "node src/middleware/getStaticData.js"
   },

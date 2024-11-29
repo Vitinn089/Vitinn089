@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <%- include('../../_components/head', {title: 'Home', page: 'index', projects}) %>
+</head>
+<body>
+<div id="page" class="flex">
+    <%- include('../../_components/header') %>
+
+	<img class="avatar" src=<%= avatarUrl %> alt="Imagem do perfil">
+	<h1 class="title">Olá, eu sou <span class="emphasis">Vitor</span>, desenvolvedor web e mobile.</h1>
+	<p class="desc">Está em  busca de um <span class="emphasis">site</span> ou <span class="emphasis">aplicativo</span>?<br/>Que tal dar uma olhada nos meus projetos?</p>
+        
+
+	<%- include('../../_components/footer.ejs') %>
+</div>
+</body>
+</html>

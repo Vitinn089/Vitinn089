@@ -15,9 +15,3 @@ footer p {
 	filter: brightness(80%);
 	text-align: center;
 }
-
-@media (min-width: 700px) {
-	footer {
-		align-self: flex-end;
-	}
-}
