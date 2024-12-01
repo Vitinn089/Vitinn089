@@ -5,7 +5,7 @@ dotenv.config({
 })
 
 export default {
-	PORT: parseInt(process.env.PORT) + 1,
+	PORT: process.env.PORT,
 	URL_API: process.env.URL_API,
 	URL_IMAGE: process.env.URL_IMAGE
 }
