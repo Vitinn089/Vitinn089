@@ -2,7 +2,7 @@ import dotenv from 'dotenv'
 
 dotenv.config({
 	path: process.env.NODE_ENV === 'develop' ? '.env.develop' : process.env.NODE_ENV === 'test' ? '.env.testing' : '.env'
-});
+})
 
 export default {
 	PORT: parseInt(process.env.PORT) + 1,

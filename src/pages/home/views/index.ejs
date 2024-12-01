@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <%- include('../../_components/head', {title: 'Home', page: 'index', projects}) %>
 </head>
 <body>
@@ -10,48 +11,111 @@
 
 
     <main>
-            <div class="hero flex">
-				<img class="hero-image container" src="/images/hero.jpg" alt="">
+		<section class="hero flex">
+			<img class="hero-image container" src="/images/hero.jpg" alt="Imagem da tela de um monitor com códigos de programação.">
 
-                <div class="content container">
+			<div class="content container flex">
+					<div class="hero-title to-right">
 						<h1 class="title">Transforme sua ideia em um <strong>site incrível</strong>!</h1>
-						<p class="sub">Confira meus projetos, inspire-se e entre em contato para criar um site que <strong>destaque sua marca</strong>. Solicite seu orçamento sem compromisso!</p>
-					
+						<p class="sub">Verifique os meus projetos, se inspire e entre em contato para criar um site que <strong>destaque a sua marca</strong>.<br><br>Solicite seu orçamento sem compromisso!<br>Temos <strong>hospedagem</strong> inclusa!</p>
+					</div>
+				
 
-					<div class="hero-footer">
-						<a class="text btn-contato" href="">
-							<img src="icons/whatsapp.svg" alt="Icone de contato via Whatsapp">
-							<span>Contato</span>
+				<div class="hero-footer">
+					<a class="text btn-contato to-right" style="--delay: 750ms;" href="https://wa.me/5531982224279?text=Ol%C3%A1%20gostaria%20de%20montar%20um%20or%C3%A7amento%20para%20cria%C3%A7%C3%A3o%20de%20um%20site%21%0A" target="_blank">
+						<img src="icons/whatsapp.svg" alt="Icone de contato via Whatsapp">
+						<span>Contato</span>
+					</a>
+
+					<div class="box-icons to-left" style="--delay: 750ms;">
+						<a class="icon" href="https://www.linkedin.com/in/vitor-lopes-991238171" target="_blank">
+							<img src="icons/linkedin.svg" alt="Icone de contato via Linkedin">
 						</a>
-
-						<div class="box-icons">
-							<a class="icon" href="https://www.linkedin.com/in/vitor-lopes-991238171" target="_blank"><img src="icons/linkedin.svg" alt="Icone de contato via Linkedin"></a>
-							<a class="icon" href="https://github.com/Vitinn089" target="_blank"><img src="icons/github.svg" alt="Icone de contato via GitHub"></a>
-							<a class="icon" href="mailto:vitorlopes089@gmail.com?subject=Desenvolvimento de sites&body=Olá gostaria de mais detalhes para a criação de um site." target="_blank"><img src="icons/email.svg" alt="Icone de contato via email"></a>
-						</div>
+						<a class="icon" href="https://github.com/Vitinn089" target="_blank">
+							<img src="icons/github.svg" alt="Icone de contato via GitHub">
+						</a>
+						<a class="icon" href="mailto:vitorlopes089@gmail.com?subject=Desenvolvimento de sites&body=Olá gostaria de mais detalhes para a criação de um site." target="_blank">
+							<img src="icons/email.svg" alt="Icone de contato via email">
+						</a>
 					</div>
 				</div>
-            </div>
 
-        <nav>
-            <div class="menu-selection" data-selected="true">
-                <span class="text">Webpages</span>
-            </div>
-            <div class="menu-selection disabled">
-                <span class="text">Websites</span>
-            </div>
-            <div class="menu-selection disabled">
-                <span class="text">Aplicativos Web</span>
-            </div>
-        </nav>
+				<img class="arrow" src="/images/arrow_down.svg" alt="icone de uma seta indicando para rolar a página.">
+			</div>
+		</section>
 
-		<div class="cards container">
-			<% projects.forEach(project => { %>
-					<%- include('./components/card.ejs', {project}) %>
-			<% }); %>
-		</div>
-		
-		<%- include('./components/board.ejs' ) %>
+		<section class="info container flex">
+			<div class="info-wrapper flex">
+				<article >
+					<div>
+						<h3>O site que é a sua cara!</h3>
+						<p>Crio soluções <strong>adequadas</strong> à sua necessidade! Temos planos mensais com <strong>hospedagem</strong> inclusa para você não se preocupar! 😉</p>
+					</div>
+					<img src="/images/03	.png" alt="Desenho de 2 pessoas gereciando um site.">
+				</article>
+				<img class="mirror" src="/images/road.png" alt="Imagem de uma trilha pontilhada indicando o próximo card">
+			</div>
+
+			<div class="info-wrapper flex right">
+				<article class="right">
+					<div>
+						<h3>E-commerce</h3>
+						<p>Venda mais com uma loja virtual que transforma cliques em compras! Com um e-commerce, é mais simples conquistar novos clientes, gerenciar seus produtos e expandir suas vendas. 🚀</p>
+					</div>
+					<img src="/images/01.png" alt="Desenho de duas pessoas fechando negocios com o símbolo da web atrás deles.">
+				</article>
+				<img src="/images/road.png" alt="Imagem de uma trilha pontilhada indicando o próximo card">
+			</div>
+
+
+			<div class="info-wrapper flex">
+				<article>
+					<div>
+						<h3>Websites para Eventos</h3>
+						<p>Apresente seu evento com um site tão incrível quanto a experiência que você vai oferecer.</p>
+					</div>
+					<img src="/images/04.png" alt="Imagem de uma pessoa configurando um evento em seu site.">
+				</article>
+				<img class="mirror" src="/images/road.png" alt="Imagem de uma trilha pontilhada indicando o próximo card">
+			</div>
+
+			<div class="info-wrapper flex right">
+				<article class="right">
+					<div>
+						<h3>Blog</h3>
+						<p>Está em busca de uma forma para espalhar seus conhecimentos para o seu público e não sabe como? Resolva problemas e <strong>conquiste seu público</strong> com um blog estratégico!</p>
+					</div>
+					<img src="/images/06.png" alt="Imagem de uma pessoa navegando em um blog.">
+				</article>
+			</div>
+		</section>
+
+
+        <section class="projects">
+			<div class="projects-content">
+				<div class="galery">
+					<nav class="flex">
+						<div class="menu-selection" data-selected="true">
+							<span class="text">Webpages</span>
+						</div>
+						<div class="menu-selection disabled">
+							<span class="text">Websites</span>
+						</div>
+						<div class="menu-selection disabled">
+							<span class="text">Aplicativos Web</span>
+						</div>
+					</nav>
+				
+							<div class="cards container flex">
+								<% projects.forEach(project => { %>
+										<%- include('./components/card.ejs', {project}) %>
+								<% }); %>
+							</div>
+				</div>
+				
+				<%- include('./components/board.ejs' ) %>
+			</div>
+		</section>
     </main>
 
 	<%- include('../../_components/footer.ejs') %>

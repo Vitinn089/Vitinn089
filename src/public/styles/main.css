@@ -5,8 +5,12 @@
 	--hue: 271;
     --color-dark-dominant: hsl(216, 7%, 15%);
     --color-dark-secondary: hsl(206, 100%, 96%);
+    --color-line: hsla(207, 100%, 96%, 0.801);
     --color-dark-featureda: hsl(var(--hue), 81%, 55%);
+    --color-dark-featureda-secondary: hsl(var(--hue), 81%, 50%);
     --color-dark-dominant-light: hsl(245, 8%, 28%);
+	--box-shadow: hsla(0, 0%, 100%, 0.1);
+	--bg-scrollbar: hsl(229, 18%, 18%);
 
     /* tamanhos de imagens*/
     --size-m-perfil: 10rem;
@@ -17,9 +21,53 @@
 
 	/* outros tamanhos */
 
+
+
 	--icon-size-w: 1.8rem;
 	--icon-size-h: 1.8rem;
 }
+
+/* Estilo geral da barra de rolagem */
+::-webkit-scrollbar {
+	width: 12px; /* Largura da barra vertical */
+	height: 12px; /* Altura da barra horizontal */
+}
+
+/* Fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+	background: var(--bg-scrollbar); /* Cor do trilho */
+	border-radius: 10px; /* Borda arredondada */
+}
+
+/* Thumb (parte que se move) */
+::-webkit-scrollbar-thumb {
+	background: var(--color-dark-featureda); /* Cor da barra */
+	border-radius: 10px; /* Borda arredondada */
+	border: 3px solid var(--bg-scrollbar);
+  }
+  
+  /* Thumb ao passar o mouse */
+  ::-webkit-scrollbar-thumb:hover {
+	background: var(--color-dark-featureda-secondary) /* Cor ao passar o mouse */
+  }
+
+  /* Botão ao passar o mouse */
+::-webkit-scrollbar-button:hover {
+	background-color: #555; /* Cor ao passar o mouse */
+	cursor: pointer;
+  }
+  
+  /* Botão na parte superior ou esquerda */
+  ::-webkit-scrollbar-button:single-button:decrement {
+	background: url('/images/scrollbar-up.svg') no-repeat center center; /* Ícone customizado */
+	background-size: 12px 12px;
+  }
+  
+  /* Botão na parte inferior ou direita */
+  ::-webkit-scrollbar-button:single-button:increment {
+	background: url('/images/scrollbar-donw.svg') no-repeat center center; /* Ícone customizado */
+	background-size: 12px 12px;
+  }
 
 * {
     box-sizing: border-box;
@@ -55,8 +103,16 @@ textarea{
 }
 
 .container {
-	width: min(100vw, 110rem);
+	width: min(100%, 150rem);
 	padding-inline: 3rem;
+}
+
+.disabled {
+	display: none;
+}
+
+.flex {
+	display: flex;
 }
 
 /* FONTES ___________ */
@@ -81,7 +137,7 @@ h2 {
 
 h3 {
 	font-weight: 600 ;
-	font-size: clamp(1.6rem, 3vw, 2rem);
+	font-size: clamp(1.8rem, 3vw, 2rem);
 	line-height: clamp(2rem, 3vw, 3rem);
 }
 
@@ -95,9 +151,11 @@ h3 {
 	font-weight: 600;
 }
 
-.text {
+.text,
+p,
+li span {
 	font-weight: 300 ;
-	font-size: clamp(1.4rem, 2vw, 1.6rem);
+	font-size: clamp(1.6rem, 2vw, 1.6rem);
 	line-height: clamp(2.4rem, 2vw, 3rem);
 }
 
@@ -111,26 +169,9 @@ strong {
 
 /* CONFIGS */
 
-.disabled {
-	display: none;
-}
 
-.flex {
-	display: flex;
-
-}
-
-@media (min-width: 700px) {
-	:root {
-
-		/* tamanhos de imagens*/
-		--size-w-card: 25.7rem;
-		--size-h-card: 12.7rem;
-
-
-		--btn-contato-h: 3.8rem;
-		--btn-contato-w: 17.4rem;
-		--icon-size-w: 2.61rem;
-		--icon-size-h: 2.61rem;
+@media (width > 1040px) {
+	.container {
+		padding-inline: 8rem;
 	}
 }

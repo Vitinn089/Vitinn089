@@ -1,0 +1,71 @@
+.info article img {
+	transition: transform 200ms ease-in;
+}
+
+.info article:hover  img{
+	transform: translateY(-10px) scale(1.03);
+}
+
+.to-right {
+	--delay: 0s;
+	--move-x: -30%;
+	animation: move-x 700ms var(--delay) backwards cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.to-left {
+	--delay: 0s;
+	--move-x: 30%;
+	animation: move-x 700ms var(--delay) backwards cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+.scale-up {
+	--delay: 0s;
+	animation: scale-up 700ms var(--delay) backwards cubic-bezier(0.250, 0.460, 0.450, 0.940);
+}
+
+@keyframes move-x {
+	0% {
+		opacity: 0;
+		transform: translateX(var(--move-x));
+	}
+}
+
+@keyframes scale-up {
+	0% {
+		opacity: 0;
+		transform: scale(0);
+	}
+}
+
+@keyframes background-move {
+	0% {
+		background-position: -50% -20%;
+	}
+	33% {
+		background-position: 30% 10%;
+	}
+	66% {
+		background-position: -20% -30%;
+	}
+	100% {
+		background-position: -10% 50%;
+	}
+}
+
+@keyframes appear {
+	from {
+		opacity: 0
+	}
+}
+
+@keyframes arrow {
+    from {
+
+        transform: translateY(-10px);
+    }
+
+    to {
+        transform: translateY(10px) rotateY(180deg);
+
+    }
+}

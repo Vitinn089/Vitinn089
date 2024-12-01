@@ -1,9 +1,9 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <!-- Styles -->
 <link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="/styles/animation/global.css">
 <link rel="stylesheet" href="styles/partials/header.css">
 <link rel="stylesheet" href="styles/partials/footer.css">
 <% if (page == 'index') { %>
@@ -19,7 +19,7 @@
 	<!-- Scripts/index -->
 	<script defer>
 		const projects = JSON.parse('<%- JSON.stringify(projects) %>')
-		console.log(projects)
+		
 	</script>
 	<script src="scripts/addEvent.js" type="module" defer></script>
 

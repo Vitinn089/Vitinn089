@@ -2,11 +2,16 @@
     max-width: var(--size-w-card);
 	scroll-snap-align: center;
 	color: var(--color-dark-secondary);
+	opacity: 0;
 }
 
 .card:hover {
 	text-decoration: underline;
 	cursor: pointer;
+}
+
+.card.scale-up {
+	opacity: 1;
 }
 
 .image-selected {
@@ -16,7 +21,7 @@
 }
 
 .card[data-selected] .image-selected {
-	outline: .2rem solid var(--color-dark-featureda);
+	border: .3rem solid var(--color-dark-featureda);
 	border-radius: .5rem;
 
 	filter: brightness(.8);
@@ -64,4 +69,11 @@
 
 .card:not([data-selected]) p {
 	filter: brightness(70%);
+}
+
+@media (width > 1040px) {
+	:root {
+		--size-w-card: 30.6rem;
+		--size-h-card: 15.2rem;
+	}
 }
