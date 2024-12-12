@@ -33,11 +33,11 @@
 <a href="https://sass-lang.com/"><img src="https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white" alt="Sass"></a> <br>
 <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"></a>
 
-<!--
+
 <a href="https://github.com/Vitinn089/">
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Vitinn089&hide=html&layout=compact&theme=dark" alt="Vitinn089" align="right">
 </a>
-
+<!--
 <a href="https://github.com/Vitinn089/">
 <img src="https://github-readme-stats.vercel.app/api?username=Vitinn089" alt="Vitinn089" align="right">
 </a> -->
