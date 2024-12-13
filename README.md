@@ -1,32 +1,28 @@
-<h1>Sobre mim 😄</h1>
-
+<h1>About me 😄</h1>
 
 <p>
  <a href="https://roadmap.sh"><img src="https://roadmap.sh/card/tall/673f7afe5434bf319a128575?variant=dark" alt="roadmap.sh" align="right"/></a>
 </p>
+
 <p align="left"> 
- 👋 Olá!
+ 👋 Hi!
  
- Sou estudante de Ciências da Computação, e apaixonado por tecnologia. Sou desenvolvedor<br/> fulstack, mas meu foco é o desenvolvimento web front-end, criando interfaces<br/> modernas e funcionais com React, JavaScript e TypeScript.</br>
+ I'm a Computer Science student and passionate about technology. I'm a Fulstack developer, but my focus is on front-end web development, creating modern and functional interfaces with React, JavaScript, and TypeScript.
  
- 💡 Busco oportunidade no mercado, seja como freelancer ou em um trabalho fixo, para aplicar<br/> minhas habilidades e continuar crescendo como desenvolvedor.</br>
+ 💡 Look for opportunities in the market, either as a freelancer or in a permanent job, to apply my skills and continue growing as a developer.</br>
  
- 📫 Entre em contato e vamos construir algo incrível juntos!
+ 📫 Get in touch and let's build something amazing together!
 </p>
-
-
-
-
 
 <h3>🚀 Habilidades desenvolvidas:</h3>
 <p align="left">
-<h4>✨Frontend</h4>
+<h3>✨Frontend</h3>
  <img src="https://skillicons.dev/icons?i=css,html,javascript,typescript,react,vite,figma&theme=dark" />
 </p>
 
 <p align="left">
- <h4>👨‍💻 Backend</h4>
- <img src="https://skillicons.dev/icons?i=nodejs,bash,prisma,nestjs,postman,postgres&theme=dark" />
+ <h3>👨‍💻 Backend</h3>
+ <img src="https://skillicons.dev/icons?i=nodejs,jest,bash,prisma,nestjs,postman,postgres&theme=dark" />
 </p>
 
 <p>
@@ -35,13 +31,10 @@
  </a>
 </p>
 
-
 <!--
 <a href="https://github.com/Vitinn089/">
 <img src="https://github-readme-stats.vercel.app/api?username=Vitinn089" alt="Vitinn089" align="right">
 </a> -->
-
-
 
 <h3> 📞 Contato:</h3>
 
